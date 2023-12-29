@@ -1,0 +1,28 @@
+.listCon .imgCon {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+.listCon .card img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.listCon .desc {
+  padding: 1rem;
+}
+.listCon .pName {
+  font-weight: bold;
+  color: var(--gray1);
+}
+.listCon .pPrice {
+  color: var(--gray3);
+}
+
+.listCon .swiper-button-prev,
+.listCon .swiper-button-next {
+  color: var(--point-c2);
+}
